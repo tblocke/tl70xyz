@@ -267,6 +267,11 @@ a:hover, a:focus {
 		-webkit-animation: five 1s .25s linear forwards;
 				animation: five 1s .25s linear forwards;
 	}
+	
+	.link-nostr:hover~.scrunch:after {
+		-webkit-animation: five 1s .25s linear forwards;
+				animation: five 1s .25s linear forwards;
+	}
 
 	.link-instagram:hover~.scrunch:after {
 		-webkit-animation: six 1s .25s linear forwards;
